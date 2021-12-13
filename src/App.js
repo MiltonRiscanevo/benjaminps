@@ -2,6 +2,7 @@ import './App.css';
 import React,{useState} from 'react';
 import Navbar from './components/NavBar'
 import Grid from './components/Grid'
+import Testeo from './components/Testeo'
 
 function App(props) {
  
@@ -9,7 +10,8 @@ function App(props) {
   return (
     <div className="App">
      <Navbar/>   
-     <Grid/>     
+     <Grid/>
+     <Testeo/>     
     </div>
   );
 }
